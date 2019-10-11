@@ -1,3 +1,7 @@
-let message: string = 'hello world';
+import MyExpress from "./myexpress_module/MyExpress";
 
-console.log(message);
+let app = new MyExpress();
+app.listen(8080);
+app.get('/coucou', (req, res) =>{
+    res.write("coucou")
+});

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
-    "test": "tsc index.ts",
+    "test": "tsc",
     "dev": "npm run test && node index.js"
   },
   "repository": {
@@ -19,5 +19,8 @@
   "homepage": "https://github.com/Sloknatos/myEpress#readme",
   "dependencies": {
     "typescript": "^3.6.4"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.12"
   }
 }
